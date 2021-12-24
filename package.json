@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CultureHQ/react-tenor.git"
+    "url": "git+https://github.com/MickyBalladelli/react-tenor.git"
   },
   "author": "Kevin Deisz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CultureHQ/react-tenor/issues"
+    "url": "https://github.com/MickyBalladelli/react-tenor/issues"
   },
-  "homepage": "https://github.com/CultureHQ/react-tenor#readme",
+  "homepage": "https://github.com/MickyBalladelli/react-tenor#readme",
   "peerDependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -50,6 +50,7 @@
   },
   "dependencies": {
     "typescript": "^4.5.4",
-    "webpack": "^5.65.0"
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.7.1"
   }
 }
