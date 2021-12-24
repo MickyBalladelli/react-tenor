@@ -3,6 +3,15 @@
 [![Build Status](https://github.com/CultureHQ/react-tenor/workflows/Main/badge.svg)](https://github.com/CultureHQ/react-tenor/actions)
 [![Package Version](https://img.shields.io/npm/v/react-tenor.svg)](https://www.npmjs.com/package/react-tenor)
 
+UPDATE: This is a fork of the original project upgraded to React 17 and published as @mickyballadelli/react-tenor17@3.0.0
+
+To install 
+
+```
+npm i @mickyballadelli/react-tenor17@3.0.0
+```
+
+
 A React component for selected GIFs from [Tenor](https://tenor.com/gifapi).
 
 ## Getting started
