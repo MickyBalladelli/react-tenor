@@ -93,7 +93,7 @@ test("dedups fast searches", () => {
     setTimeout(() => {
       expect(testServer.requests.search).toEqual(previousSearches + 1);
 
-      resolve();
+      resolve(true);
     }, 300);
   });
 });

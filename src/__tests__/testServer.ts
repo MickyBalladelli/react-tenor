@@ -20,7 +20,7 @@ const getRequestKey = (url: string) => url.slice(1).substring(0, url.indexOf("?"
 
 export const startTestServer = (): Promise<void> => new Promise(resolve => {
   testServer.on("request", (request, response) => {
-    const requestKey = getRequestKey(request.url) as keyof typeof mockResults;
+    const requestKey = getRequestKey(request.url || '') as keyof typeof mockResults;
     testServer.requests[requestKey] += 1;
 
     response.writeHead(200, {
